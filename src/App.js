@@ -14,12 +14,10 @@ function App() {
           <Route path="/login">
             <h1>Login Page</h1>
           </Route>
-          {
-            <Route path="/">
-              <Header />
-              <Home />
-            </Route>
-          }
+          <Route path="/">
+            <Header />
+            <Home />
+          </Route>
         </Switch>
       </div>
     </Router>
